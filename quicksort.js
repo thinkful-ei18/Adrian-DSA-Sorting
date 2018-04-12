@@ -19,7 +19,7 @@ function partition(array, start, end) {
   return j;
 }
 
-quickSort(array, start=0, end=array.length) {
+function quickSort(array, start=0, end=array.length) {
   start = start;
   end = end;
   if (start >= end) {
