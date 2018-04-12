@@ -19,7 +19,7 @@ function partition(array, start, end) {
   return j;
 }
 
-function quickSort(array, start=0, end=array.length) {
+quickSort(array, start=0, end=array.length) {
   start = start;
   end = end;
   if (start >= end) {
@@ -30,3 +30,5 @@ function quickSort(array, start=0, end=array.length) {
   array = quickSort(array, middle + 1, end);
   return array;
 }
+
+module.exports = quickSort;
